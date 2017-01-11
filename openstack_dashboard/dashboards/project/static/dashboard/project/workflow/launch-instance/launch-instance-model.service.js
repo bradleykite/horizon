@@ -275,6 +275,12 @@
       if ('config_drive' in defaults) {
         model.newInstanceSpec.config_drive = defaults.config_drive;
       }
+      if ('vol_device_name' in defaults) {
+        model.newInstanceSpec.vol_device_name = defaults.vol_device_name;
+      }
+      if ('vol_create' in defaults) {
+        model.newInstanceSpec.vol_create = defaults.vol_create;
+      }
     }
 
     /**
